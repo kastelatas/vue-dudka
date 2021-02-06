@@ -1,0 +1,32 @@
+.add-todo {
+  display: flex;
+  flex-direction: column;
+  max-width: 279px;
+  margin: 0 auto;
+  margin-top: 4rem;
+
+  &__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8F9ABC;
+    margin-bottom: 2rem;
+  }
+
+  &__new {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 12px 25px;
+    color: #444444;
+    background: #FFFFFF;
+    border: 3px solid #8F9ABC;
+    border-radius: 30px;
+    max-width: 279px;
+    outline: none;
+  }
+}

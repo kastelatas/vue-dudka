@@ -1,0 +1,65 @@
+.header {
+  background: #AF7EEB;
+  padding: 31px 6%;
+
+  &__container{
+    max-width:1746px ;
+    margin: 0 auto;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu {
+    width: 26px;
+    margin-right: 75px;
+    cursor: pointer;
+
+    .line {
+      display: block;
+      width: 100%;
+      height: 5px;
+      background: #fff;
+      border-radius: 20px;
+      margin-bottom: 2px;
+    }
+  }
+
+  &__title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+  
+  &__reload{
+    cursor: pointer;
+  }
+
+  .animation {
+    animation: tilt 1s infinite linear;
+  }
+
+}
+
+@keyframes tilt{
+  0%{
+    transform:rotate(0);
+  }
+  50%{
+    transform:rotate(180deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
